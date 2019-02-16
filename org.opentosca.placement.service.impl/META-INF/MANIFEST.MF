@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Placement Implementation
+Bundle-SymbolicName: org.opentosca.placement.impl
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.opentosca.placement.impl
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.opentosca.placement.service
+Service-Component: OSGI-INF/PlacementServiceImpl_component.xml
